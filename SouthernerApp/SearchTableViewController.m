@@ -14,21 +14,34 @@
 @implementation SearchTableViewController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
-    NSString *userInput = self.searchBar.text;
-    NSLog(@"Input: %@", userInput);
-    NSString *searchSyntax = @"southerner.greatneck.k12.ny.us/?json_route=/posts?filter[s]";
-    NSString *backendInput = [searchSyntax stringByAppendingString:userInput];
-
-    ArticlesBySection *dataRaw = [[ArticlesBySection alloc] init];
-    [dataRaw creatPostArrayFromJsonData:backendInput];
-    self.Posts = dataRaw.Posts;
+//    [super viewDidLoad];
+//    NSString *userInput = self.searchBar.text;
+//    NSLog(@"Input: %@", userInput);
+//    NSString *searchSyntax = @"southerner.greatneck.k12.ny.us/?json_route=/posts?filter[s]";
+//    NSString *backendInput = [searchSyntax stringByAppendingString:userInput];
+//
+//    ArticlesBySection *dataRaw = [[ArticlesBySection alloc] init];
+//    [dataRaw creatPostArrayFromJsonData:backendInput];
+//    self.Posts = dataRaw.Posts;
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
+    
+    
+    self.searchBar.delegate = self;
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
+
+
+-(void) searchBarSearchButtonClicked:(UISearchBar *)searchBar {
+    NSLog(@"input = %@",self.searchBar.text);
+    
+    [searchBar resignFirstResponder];
+    
+}
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

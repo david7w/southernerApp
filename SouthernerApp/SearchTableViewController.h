@@ -11,10 +11,11 @@
 #import "ArticlePost.h"
 
 @interface SearchTableViewController : UITableViewController
-
+<UISearchBarDelegate>
 @property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
 @property (nonatomic, strong) NSMutableArray *Posts;
 
 
 
 @end
+//uitableviewdatasource, uitableviewdelegate
