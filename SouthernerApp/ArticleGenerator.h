@@ -13,7 +13,7 @@
 #import <SDWebImageManager.h>
 #import <Parse/Parse.h>
 #import "SectionsTableViewController.h"
-@interface ArticlesBySection : UITableViewController
+@interface ArticleGenerator : UITableViewController
 
 @property (nonatomic, strong) NSMutableArray *Posts;
 @property (nonatomic, strong) NSMutableArray *dataArray;
@@ -22,6 +22,5 @@
 
 - (void) creatPostArrayFromJsonData: (NSString*) jsonSource;
 - (void)refresh:(UIRefreshControl *)refreshControl ;
-//- (IBAction)tappedSaveData:(id)sender;
 
 @end

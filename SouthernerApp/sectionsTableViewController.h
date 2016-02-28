@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ArticlesBySection.h"
+#import "ArticleGenerator.h"
 @interface sectionsTableViewController : UITableViewController
 
 @end

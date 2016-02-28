@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15E39d" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15E49a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -94,7 +94,7 @@
             </objects>
             <point key="canvasLocation" x="2182" y="-2381"/>
         </scene>
-        <!--Choose A Section.-->
+        <!--Choose A Section-->
         <scene sceneID="KOB-dh-T1a">
             <objects>
                 <viewController id="UrM-8h-4UV" customClass="sectionViewController" sceneMemberID="viewController">
@@ -108,6 +108,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wV3-GB-RC5">
                                 <rect key="frame" x="257" y="93" width="84" height="58"/>
+                                <color key="backgroundColor" cyan="0.0" magenta="0.58999999999999997" yellow="0.95999999999999996" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="33"/>
                                 <state key="normal" title="News">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -169,26 +170,27 @@
                         </subviews>
                         <color key="backgroundColor" cyan="0.0" magenta="0.58999999999999997" yellow="0.95999999999999996" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                         <constraints>
-                            <constraint firstItem="wV3-GB-RC5" firstAttribute="centerX" secondItem="SIP-Dv-zAb" secondAttribute="centerX" id="FNt-TT-WZb"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="wV3-GB-RC5" secondAttribute="trailing" constant="239" id="HNY-eg-28E"/>
-                            <constraint firstItem="SIP-Dv-zAb" firstAttribute="top" secondItem="gbQ-ih-aTm" secondAttribute="bottom" constant="13" id="KLw-xg-HNQ"/>
-                            <constraint firstItem="gbQ-ih-aTm" firstAttribute="top" secondItem="wV3-GB-RC5" secondAttribute="bottom" constant="23" id="LXM-dx-5Fk"/>
-                            <constraint firstItem="JnD-p9-Bz7" firstAttribute="top" secondItem="3mM-xA-cDk" secondAttribute="bottom" constant="20" id="TGt-Iw-erU"/>
-                            <constraint firstItem="Uti-5z-bux" firstAttribute="top" secondItem="DM8-Qm-tCY" secondAttribute="bottom" constant="16" id="Ye7-jk-Wd4"/>
-                            <constraint firstItem="JnD-p9-Bz7" firstAttribute="centerX" secondItem="3mM-xA-cDk" secondAttribute="centerX" id="Zne-z6-CoU"/>
-                            <constraint firstItem="DM8-Qm-tCY" firstAttribute="centerX" secondItem="JnD-p9-Bz7" secondAttribute="centerX" id="cKC-i2-AtX"/>
-                            <constraint firstItem="gbQ-ih-aTm" firstAttribute="centerX" secondItem="jPt-xd-oqj" secondAttribute="centerX" id="d98-BU-RCK"/>
-                            <constraint firstItem="SIP-Dv-zAb" firstAttribute="top" secondItem="gbQ-ih-aTm" secondAttribute="bottom" constant="13" id="eXa-it-Fvt"/>
-                            <constraint firstItem="3mM-xA-cDk" firstAttribute="centerX" secondItem="SIP-Dv-zAb" secondAttribute="centerX" id="ei1-ud-VCJ"/>
-                            <constraint firstItem="wV3-GB-RC5" firstAttribute="leading" secondItem="jPt-xd-oqj" secondAttribute="leadingMargin" constant="237" id="h02-bX-r2A"/>
-                            <constraint firstItem="SIP-Dv-zAb" firstAttribute="leading" secondItem="jPt-xd-oqj" secondAttribute="leading" constant="153" id="i6z-XO-8zh"/>
-                            <constraint firstItem="wV3-GB-RC5" firstAttribute="top" secondItem="gfw-3x-NjO" secondAttribute="bottom" constant="29" id="lLU-Is-qRY"/>
-                            <constraint firstItem="DM8-Qm-tCY" firstAttribute="top" secondItem="JnD-p9-Bz7" secondAttribute="bottom" constant="18" id="m3U-GN-YaU"/>
-                            <constraint firstItem="3mM-xA-cDk" firstAttribute="top" secondItem="SIP-Dv-zAb" secondAttribute="bottom" constant="20" id="mAs-pb-ZXM"/>
-                            <constraint firstItem="DM8-Qm-tCY" firstAttribute="centerX" secondItem="jPt-xd-oqj" secondAttribute="centerX" id="vlJ-tJ-wZQ"/>
+                            <constraint firstItem="JnD-p9-Bz7" firstAttribute="centerX" secondItem="jPt-xd-oqj" secondAttribute="centerX" constant="-1.5" id="21b-Td-jUS"/>
+                            <constraint firstItem="SIP-Dv-zAb" firstAttribute="centerX" secondItem="jPt-xd-oqj" secondAttribute="centerX" constant="-1" id="6jd-Pz-R2W"/>
+                            <constraint firstItem="Uti-5z-bux" firstAttribute="top" secondItem="DM8-Qm-tCY" secondAttribute="bottom" constant="16" id="90T-8s-Dog"/>
+                            <constraint firstItem="wV3-GB-RC5" firstAttribute="centerX" secondItem="jPt-xd-oqj" secondAttribute="centerX" constant="-1" id="LZq-vD-dYQ"/>
+                            <constraint firstItem="wV3-GB-RC5" firstAttribute="centerY" secondItem="jPt-xd-oqj" secondAttribute="centerY" constant="-178" id="NwB-yW-Fao"/>
+                            <constraint firstItem="gbQ-ih-aTm" firstAttribute="centerX" secondItem="jPt-xd-oqj" secondAttribute="centerX" id="Q0p-i5-sQL"/>
+                            <constraint firstItem="gbQ-ih-aTm" firstAttribute="centerY" secondItem="jPt-xd-oqj" secondAttribute="centerY" constant="-97" id="SHc-f5-dRa"/>
+                            <constraint firstItem="DM8-Qm-tCY" firstAttribute="centerX" secondItem="jPt-xd-oqj" secondAttribute="centerX" constant="-1.5" id="eHU-oO-bvE"/>
+                            <constraint firstItem="3mM-xA-cDk" firstAttribute="centerY" secondItem="jPt-xd-oqj" secondAttribute="centerY" constant="52" id="kOJ-Yo-w5D"/>
+                            <constraint firstItem="3mM-xA-cDk" firstAttribute="centerX" secondItem="jPt-xd-oqj" secondAttribute="centerX" constant="-1.5" id="lpx-Gl-cra"/>
+                            <constraint firstItem="DM8-Qm-tCY" firstAttribute="centerY" secondItem="jPt-xd-oqj" secondAttribute="centerY" constant="206" id="pqG-g4-1Vd"/>
+                            <constraint firstItem="SIP-Dv-zAb" firstAttribute="centerY" secondItem="jPt-xd-oqj" secondAttribute="centerY" constant="-26" id="v2u-v8-2Zz"/>
+                            <constraint firstItem="JnD-p9-Bz7" firstAttribute="centerY" secondItem="jPt-xd-oqj" secondAttribute="centerY" constant="130" id="w4B-sl-B56"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="90T-8s-Dog"/>
+                            </mask>
+                        </variation>
                     </view>
-                    <navigationItem key="navigationItem" title="Choose A Section." id="d1n-aF-ZJV">
+                    <navigationItem key="navigationItem" title="Choose A Section" id="d1n-aF-ZJV">
                         <barButtonItem key="backBarButtonItem" title="Back" id="Bz6-uY-HWs"/>
                     </navigationItem>
                 </viewController>
@@ -199,7 +201,7 @@
         <!--Recent Articles-->
         <scene sceneID="0wg-gO-Fbr">
             <objects>
-                <tableViewController id="ZiA-uF-PF3" customClass="ArticlesBySection" sceneMemberID="viewController">
+                <tableViewController id="ZiA-uF-PF3" customClass="ArticleGenerator" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="83" sectionHeaderHeight="28" sectionFooterHeight="28" id="8KW-pf-0le">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -658,6 +660,6 @@
         <image name="Paper-32" width="32" height="32"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="fPp-J3-x2n"/>
+        <segue reference="x0o-ZT-Zn6"/>
     </inferredMetricsTieBreakers>
 </document>

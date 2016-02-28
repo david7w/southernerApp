@@ -14,7 +14,8 @@
 @implementation SearchTableViewController
 
 - (void)viewDidLoad {
-//    [super viewDidLoad];
+   [super viewDidLoad];
+    self.navigationItem.title = @"Search";
 //    NSString *userInput = self.searchBar.text;
 //    NSLog(@"Input: %@", userInput);
 //    NSString *searchSyntax = @"southerner.greatneck.k12.ny.us/?json_route=/posts?filter[s]";
@@ -36,9 +37,17 @@
 
 -(void) searchBarSearchButtonClicked:(UISearchBar *)searchBar {
     NSLog(@"input = %@",self.searchBar.text);
-    
     [searchBar resignFirstResponder];
     
+    NSString *userInput = self.searchBar.text;
+    NSString *searchSyntax = @"https://southerner.greatneck.k12.ny.us/?json=get_search_results=";
+    NSString *URL = [searchSyntax stringByAppendingString:userInput];
+
+    ArticleGenerator *dataRaw = [[ArticleGenerator alloc] init];
+    [dataRaw creatPostArrayFromJsonData:URL];
+    self.Posts = dataRaw.Posts;
+
+        
 }
 
 
@@ -87,7 +96,7 @@
     
     cell.textLabel.text = blogPost.title;
     
-    cell.detailTextLabel.text = [NSString stringWithFormat:@"%@ - %@",blogPost.author,[blogPost formattedDate]];
+    //cell.detailTextLabel.text = [NSString stringWithFormat:@"%@ - %@",blogPost.author,[blogPost formattedDate]];
     
     return cell;
 }

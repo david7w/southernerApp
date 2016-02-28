@@ -11,3 +11,4 @@
 @interface ArticleNavigationController : UINavigationController
 
 @end
+//dont delete this. it's necessary for that orange reload thing. Though, we could prob accomplish this through the viecontroller?

@@ -6,13 +6,13 @@
 //  Copyright © 2015 David West. All rights reserved.
 //
 
-#import "ArticlesBySection.h"
+#import "ArticleGenerator.h"
 
-@interface ArticlesBySection ()
+@interface ArticleGenerator ()
 
 @end
 
-@implementation ArticlesBySection
+@implementation ArticleGenerator
 
 //use this to get section articles : http://southerner.greatneck.k12.ny.us/?json=core.get_tag_posts&slug=news
 
@@ -28,7 +28,8 @@
         
         for (NSDictionary *bpDictionary in blogPostsArray) {
             ArticlePost *blogPost = [ArticlePost blogPostWithTitle:[bpDictionary objectForKey:@"title"]];
-            blogPost.author = [bpDictionary objectForKey:@"author"];
+           NSDictionary *authorDict =  [bpDictionary objectForKey:@"author"];
+            blogPost.author = [authorDict objectForKey:@"name"];
             blogPost.thumbnail = [bpDictionary objectForKey:@"thumbnail"];
             blogPost.date = [bpDictionary objectForKey:@"date"];
             blogPost.url = [NSURL URLWithString:[bpDictionary objectForKey:@"url"]];
@@ -65,7 +66,6 @@
     [self.refreshControl addTarget:self
                             action:@selector(refresh:)
                   forControlEvents:UIControlEventValueChanged];
-    self.dataArray = [[NSUserDefaults standardUserDefaults] objectForKey:@"myTxtList"];
 
 };
 

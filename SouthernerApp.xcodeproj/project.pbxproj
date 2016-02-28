@@ -22,12 +22,11 @@
 		CD2FB0801B7EC81E0026D60B /* SouthernerAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2FB07F1B7EC81E0026D60B /* SouthernerAppTests.m */; };
 		CD2FB08B1B7EC81E0026D60B /* SouthernerAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2FB08A1B7EC81E0026D60B /* SouthernerAppUITests.m */; };
 		CD3F3BC41B81657C00111F8A /* ArticleNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3F3BC31B81657C00111F8A /* ArticleNavigationController.m */; };
-		CD3F3BC71B817F3A00111F8A /* SearchNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3F3BC61B817F3A00111F8A /* SearchNavigationController.m */; };
 		CD3F3BCA1B817F9E00111F8A /* SearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3F3BC91B817F9E00111F8A /* SearchTableViewController.m */; };
 		CD834E511B828407006D83A4 /* SavedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD834E501B828406006D83A4 /* SavedTableViewController.m */; };
 		CD9762F71B7FED9000A85E10 /* ArticlePost.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9762F61B7FED9000A85E10 /* ArticlePost.m */; };
 		CD9762FA1B7FF02700A85E10 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9762F91B7FF02700A85E10 /* WebViewController.m */; };
-		CD9763001B7FF7F800A85E10 /* ArticlesBySection.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9762FF1B7FF7F800A85E10 /* ArticlesBySection.m */; };
+		CD9763001B7FF7F800A85E10 /* ArticleGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9762FF1B7FF7F800A85E10 /* ArticleGenerator.m */; };
 		CDE601351B8039C700F579A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE601341B8039C700F579A1 /* UIKit.framework */; };
 		CDE7434B1B803A0000DF37D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE7434A1B803A0000DF37D1 /* Foundation.framework */; };
 		CDE7434D1B803A0900DF37D1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE7434C1B803A0900DF37D1 /* CoreGraphics.framework */; };
@@ -81,8 +80,6 @@
 		CD2FB08C1B7EC81E0026D60B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD3F3BC21B81657C00111F8A /* ArticleNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleNavigationController.h; sourceTree = "<group>"; };
 		CD3F3BC31B81657C00111F8A /* ArticleNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleNavigationController.m; sourceTree = "<group>"; };
-		CD3F3BC51B817F3A00111F8A /* SearchNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchNavigationController.h; sourceTree = "<group>"; };
-		CD3F3BC61B817F3A00111F8A /* SearchNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchNavigationController.m; sourceTree = "<group>"; };
 		CD3F3BC81B817F9E00111F8A /* SearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchTableViewController.h; sourceTree = "<group>"; };
 		CD3F3BC91B817F9E00111F8A /* SearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchTableViewController.m; sourceTree = "<group>"; };
 		CD834E4F1B828406006D83A4 /* SavedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SavedTableViewController.h; sourceTree = "<group>"; };
@@ -91,8 +88,8 @@
 		CD9762F61B7FED9000A85E10 /* ArticlePost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticlePost.m; sourceTree = "<group>"; };
 		CD9762F81B7FF02700A85E10 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		CD9762F91B7FF02700A85E10 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
-		CD9762FE1B7FF7F800A85E10 /* ArticlesBySection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticlesBySection.h; sourceTree = "<group>"; };
-		CD9762FF1B7FF7F800A85E10 /* ArticlesBySection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticlesBySection.m; sourceTree = "<group>"; };
+		CD9762FE1B7FF7F800A85E10 /* ArticleGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleGenerator.h; sourceTree = "<group>"; };
+		CD9762FF1B7FF7F800A85E10 /* ArticleGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleGenerator.m; sourceTree = "<group>"; };
 		CDE601341B8039C700F579A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CDE7434A1B803A0000DF37D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CDE7434C1B803A0900DF37D1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -179,31 +176,29 @@
 				CD9762F61B7FED9000A85E10 /* ArticlePost.m */,
 				CD9762F81B7FF02700A85E10 /* WebViewController.h */,
 				CD9762F91B7FF02700A85E10 /* WebViewController.m */,
-				CD9762FE1B7FF7F800A85E10 /* ArticlesBySection.h */,
-				CD9762FF1B7FF7F800A85E10 /* ArticlesBySection.m */,
+				CD9762FE1B7FF7F800A85E10 /* ArticleGenerator.h */,
+				CD9762FF1B7FF7F800A85E10 /* ArticleGenerator.m */,
 				CD2FB06E1B7EC81E0026D60B /* Main.storyboard */,
 				CD2FB0731B7EC81E0026D60B /* LaunchScreen.storyboard */,
+				CD16F6871C7179AA006BF091 /* sectionViewController.h */,
+				CD16F6881C7179AA006BF091 /* sectionViewController.m */,
+				CD24EADA1B8AD66100586EA3 /* MoreViewController.h */,
+				CD24EADB1B8AD66100586EA3 /* MoreViewController.m */,
+				CD3F3BC81B817F9E00111F8A /* SearchTableViewController.h */,
+				CD3F3BC91B817F9E00111F8A /* SearchTableViewController.m */,
+				CD2FB0761B7EC81E0026D60B /* Info.plist */,
+				CD2FB0711B7EC81E0026D60B /* Assets.xcassets */,
+				CD3F3BC21B81657C00111F8A /* ArticleNavigationController.h */,
+				CD2FB0681B7EC81E0026D60B /* FirstViewController.h */,
+				CD2FB0691B7EC81E0026D60B /* FirstViewController.m */,
+				CD3F3BC31B81657C00111F8A /* ArticleNavigationController.m */,
+				CD834E4F1B828406006D83A4 /* SavedTableViewController.h */,
+				CD834E501B828406006D83A4 /* SavedTableViewController.m */,
 				CD24EADD1B8AD92500586EA3 /* LoginViewController.h */,
 				CD24EADE1B8AD92500586EA3 /* LoginViewController.m */,
 				CD24EAE01B8AD93600586EA3 /* SignupViewController.h */,
 				CD24EAE11B8AD93600586EA3 /* SignupViewController.m */,
-				CD24EADA1B8AD66100586EA3 /* MoreViewController.h */,
-				CD24EADB1B8AD66100586EA3 /* MoreViewController.m */,
-				CD2FB0681B7EC81E0026D60B /* FirstViewController.h */,
-				CD2FB0691B7EC81E0026D60B /* FirstViewController.m */,
-				CD3F3BC21B81657C00111F8A /* ArticleNavigationController.h */,
-				CD3F3BC31B81657C00111F8A /* ArticleNavigationController.m */,
-				CD3F3BC51B817F3A00111F8A /* SearchNavigationController.h */,
-				CD3F3BC61B817F3A00111F8A /* SearchNavigationController.m */,
-				CD3F3BC81B817F9E00111F8A /* SearchTableViewController.h */,
-				CD3F3BC91B817F9E00111F8A /* SearchTableViewController.m */,
-				CD834E4F1B828406006D83A4 /* SavedTableViewController.h */,
-				CD834E501B828406006D83A4 /* SavedTableViewController.m */,
-				CD2FB0761B7EC81E0026D60B /* Info.plist */,
-				CD2FB0711B7EC81E0026D60B /* Assets.xcassets */,
 				CD2FB0621B7EC81E0026D60B /* Supporting Files */,
-				CD16F6871C7179AA006BF091 /* sectionViewController.h */,
-				CD16F6881C7179AA006BF091 /* sectionViewController.m */,
 			);
 			path = SouthernerApp;
 			sourceTree = "<group>";
@@ -403,7 +398,6 @@
 			files = (
 				CD16F6891C7179AA006BF091 /* sectionViewController.m in Sources */,
 				CD834E511B828407006D83A4 /* SavedTableViewController.m in Sources */,
-				CD3F3BC71B817F3A00111F8A /* SearchNavigationController.m in Sources */,
 				CD3F3BC41B81657C00111F8A /* ArticleNavigationController.m in Sources */,
 				CD24EAE21B8AD93600586EA3 /* SignupViewController.m in Sources */,
 				CD3F3BCA1B817F9E00111F8A /* SearchTableViewController.m in Sources */,
@@ -412,7 +406,7 @@
 				CD2FB0671B7EC81E0026D60B /* AppDelegate.m in Sources */,
 				CD2FB06A1B7EC81E0026D60B /* FirstViewController.m in Sources */,
 				CD24EADF1B8AD92500586EA3 /* LoginViewController.m in Sources */,
-				CD9763001B7FF7F800A85E10 /* ArticlesBySection.m in Sources */,
+				CD9763001B7FF7F800A85E10 /* ArticleGenerator.m in Sources */,
 				CD24EADC1B8AD66100586EA3 /* MoreViewController.m in Sources */,
 				CD2FB0641B7EC81E0026D60B /* main.m in Sources */,
 			);
