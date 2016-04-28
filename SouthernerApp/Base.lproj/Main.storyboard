@@ -284,49 +284,49 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tkk-pY-y92">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tkk-pY-y92">
                                 <rect key="frame" x="146" y="170" width="308" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="School phone numbers">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KI2-8n-Zg7">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KI2-8n-Zg7">
                                 <rect key="frame" x="134" y="231" width="332" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Morning announcements">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zRN-ho-4BK">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zRN-ho-4BK">
                                 <rect key="frame" x="195" y="288" width="209" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="A or B schedule">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lix-m3-T8k">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lix-m3-T8k">
                                 <rect key="frame" x="180" y="342" width="239" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Whats Happening">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bce-gb-nrC">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bce-gb-nrC">
                                 <rect key="frame" x="211" y="402" width="178" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Bell schedule">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GO2-rI-hcc">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GO2-rI-hcc">
                                 <rect key="frame" x="181" y="456" width="237" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Teacher Websites">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zMf-y5-EGW">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zMf-y5-EGW">
                                 <rect key="frame" x="198" y="97" width="203" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="School website">
@@ -340,6 +340,7 @@
                             <constraint firstItem="zRN-ho-4BK" firstAttribute="trailing" secondItem="Lix-m3-T8k" secondAttribute="trailing" constant="-15" id="A2t-Kc-QHa"/>
                             <constraint firstItem="Tkk-pY-y92" firstAttribute="leading" secondItem="zRN-ho-4BK" secondAttribute="leading" constant="-49" id="CmP-9A-xm8"/>
                             <constraint firstItem="KI2-8n-Zg7" firstAttribute="top" secondItem="Tkk-pY-y92" secondAttribute="bottom" constant="13" id="E6D-P6-kw7"/>
+                            <constraint firstItem="zMf-y5-EGW" firstAttribute="top" secondItem="Lcp-Yc-jDh" secondAttribute="bottom" constant="33" id="Fmn-lo-6Xx"/>
                             <constraint firstItem="Lix-m3-T8k" firstAttribute="leading" secondItem="bce-gb-nrC" secondAttribute="leading" constant="-31" id="IQl-7D-Mex"/>
                             <constraint firstItem="bce-gb-nrC" firstAttribute="leading" secondItem="GO2-rI-hcc" secondAttribute="leading" constant="30" id="Op2-F0-gCY"/>
                             <constraint firstItem="Tkk-pY-y92" firstAttribute="top" secondItem="zMf-y5-EGW" secondAttribute="bottom" constant="25" id="TOg-xY-7eV"/>
@@ -351,6 +352,7 @@
                             <constraint firstItem="zRN-ho-4BK" firstAttribute="leading" secondItem="Lix-m3-T8k" secondAttribute="leading" constant="15" id="kvv-zN-WRV"/>
                             <constraint firstItem="KI2-8n-Zg7" firstAttribute="centerX" secondItem="zRN-ho-4BK" secondAttribute="centerX" id="m76-UB-upF"/>
                             <constraint firstItem="Lix-m3-T8k" firstAttribute="top" secondItem="zRN-ho-4BK" secondAttribute="bottom" constant="6" id="qqX-Nz-fQ2"/>
+                            <constraint firstItem="zMf-y5-EGW" firstAttribute="centerX" secondItem="9yT-MX-pZg" secondAttribute="centerX" id="t27-c3-AFi"/>
                             <constraint firstItem="Tkk-pY-y92" firstAttribute="trailing" secondItem="zRN-ho-4BK" secondAttribute="trailing" constant="50" id="tt7-7A-a4g"/>
                         </constraints>
                     </view>
