@@ -7,7 +7,7 @@ pod 'AFNetworking', '~> 2.5'
 
 pod 'SDWebImage', '~> 3.7'
 
-pod 'Parse', '~> 1.8'
+pod 'Google/Analytics'
 
 end
 

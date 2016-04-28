@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CD2FB05E1B7EC81E0026D60B"
-               BuildableName = "SouthernerApp.app"
+               BuildableName = "The Southerner.app"
                BlueprintName = "SouthernerApp"
                ReferencedContainer = "container:The Southerner.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CD2FB07A1B7EC81E0026D60B"
-               BuildableName = "SouthernerAppTests.xctest"
+               BuildableName = "The Southerner.xctest"
                BlueprintName = "SouthernerAppTests"
                ReferencedContainer = "container:The Southerner.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CD2FB0851B7EC81E0026D60B"
-               BuildableName = "SouthernerAppUITests.xctest"
+               BuildableName = "The Southerner.xctest"
                BlueprintName = "SouthernerAppUITests"
                ReferencedContainer = "container:The Southerner.xcodeproj">
             </BuildableReference>
@@ -53,7 +53,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CD2FB05E1B7EC81E0026D60B"
-            BuildableName = "SouthernerApp.app"
+            BuildableName = "The Southerner.app"
             BlueprintName = "SouthernerApp"
             ReferencedContainer = "container:The Southerner.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CD2FB05E1B7EC81E0026D60B"
-            BuildableName = "SouthernerApp.app"
+            BuildableName = "The Southerner.app"
             BlueprintName = "SouthernerApp"
             ReferencedContainer = "container:The Southerner.xcodeproj">
          </BuildableReference>
@@ -95,7 +95,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CD2FB05E1B7EC81E0026D60B"
-            BuildableName = "SouthernerApp.app"
+            BuildableName = "The Southerner.app"
             BlueprintName = "SouthernerApp"
             ReferencedContainer = "container:The Southerner.xcodeproj">
          </BuildableReference>
