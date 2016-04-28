@@ -290,6 +290,9 @@
                                 <state key="normal" title="School phone numbers">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="openSchoolPhoneNumbers:" destination="yyS-4Z-CwG" eventType="touchUpInside" id="lfW-DM-Vam"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KI2-8n-Zg7">
                                 <rect key="frame" x="134" y="231" width="332" height="48"/>
@@ -297,6 +300,9 @@
                                 <state key="normal" title="Morning announcements">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="openMorningAnnouncements:" destination="yyS-4Z-CwG" eventType="touchUpInside" id="5Vv-h6-cht"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zRN-ho-4BK">
                                 <rect key="frame" x="195" y="288" width="209" height="48"/>
@@ -304,6 +310,9 @@
                                 <state key="normal" title="A or B schedule">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="openABSchedule:" destination="yyS-4Z-CwG" eventType="touchUpInside" id="MW4-Or-Jc3"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lix-m3-T8k">
                                 <rect key="frame" x="180" y="342" width="239" height="48"/>
@@ -311,6 +320,9 @@
                                 <state key="normal" title="Whats Happening">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="openWhatsHappening:" destination="yyS-4Z-CwG" eventType="touchUpInside" id="STT-QA-SoW"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bce-gb-nrC">
                                 <rect key="frame" x="211" y="402" width="178" height="48"/>
@@ -318,6 +330,9 @@
                                 <state key="normal" title="Bell schedule">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="openBellSchedule:" destination="yyS-4Z-CwG" eventType="touchUpInside" id="6v0-yI-6IG"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GO2-rI-hcc">
                                 <rect key="frame" x="181" y="456" width="237" height="48"/>
@@ -325,6 +340,9 @@
                                 <state key="normal" title="Teacher Websites">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="openTeacherWebsites:" destination="yyS-4Z-CwG" eventType="touchUpInside" id="gY8-89-LJ4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zMf-y5-EGW">
                                 <rect key="frame" x="198" y="97" width="203" height="48"/>
@@ -332,6 +350,9 @@
                                 <state key="normal" title="School website">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="openSchoolWebsite:" destination="yyS-4Z-CwG" eventType="touchUpInside" id="R0A-4A-Cff"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" cyan="0.0" magenta="0.58999999999999997" yellow="0.95999999999999996" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
@@ -362,10 +383,10 @@
             </objects>
             <point key="canvasLocation" x="1830" y="1050"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--More Navigation View Controller-->
         <scene sceneID="JeW-94-3NW">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ai5-OY-HgC" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ai5-OY-HgC" customClass="MoreNavigationViewController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" systemItem="more" id="cPa-gy-q4n"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="HrV-Ez-Yxa">
