@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import <Parse/Parse.h>
 @interface AppDelegate ()
 
 @end
@@ -16,21 +15,22 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    Configure tracker from GoogleService-Info.plist.
+    NSError *configureError;
+    [[GGLContext sharedInstance] configureWithError:&configureError];
+    NSAssert(!configureError, @"Error configuring Google services: %@", configureError);
+    
+    // Optional: configure GAI options.
+    GAI *gai = [GAI sharedInstance];
+    gai.trackUncaughtExceptions = YES;  // report uncaught exceptions
+    gai.logger.logLevel = kGAILogLevelVerbose;  // remove before app release
+    // [END tracker_objc]
+    
     // Override point for customization after application launch.
-    [Parse setApplicationId:@"5ynaFOesebYzf5mybRmDATK8Sr8NV8w6h5bHwiPr"
-                  clientKey:@"hPyuUzEQucQ0U7IfiacAanJHWhhyMAse06Khvmyb"];
-  /*  PFObject *favoriteArticles = [PFObject objectWithClassName:@"GameScore"];
-    favoriteArticles[@"score"] = @1337;
-    favoriteArticles[@"playerName"] = @"Sean Plott";
-    favoriteArticles[@"cheatMode"] = @NO;
-    [gameScore saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
-        if (succeeded) {
-            // The object has been saved.
-        } else {
-            // There was a problem, check error.description
-        }
-    }];
-    */
+    
+    
+    
+
     return YES;}
 
 - (void)applicationWillResignActive:(UIApplication *)application {

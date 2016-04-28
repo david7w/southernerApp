@@ -1,19 +1,18 @@
 //
-//  ArticlesBySection.m
+//  ResultsTableViewController.m
 //  SouthernerApp
 //
-//  Created by David West on 8/15/15.
-//  Copyright © 2015 David West. All rights reserved.
+//  Created by David West on 2/27/16.
+//  Copyright © 2016 David West. All rights reserved.
 //
 
-#import "ArticleGenerator.h"
+#import "ResultsTableViewController.h"
 
-@interface ArticleGenerator ()
+@interface ResultsTableViewController ()
 
 @end
 
-@implementation ArticleGenerator
-
+@implementation ResultsTableViewController
 
 - (void) creatPostArrayFromJsonData:jsonSource {
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
@@ -42,42 +41,26 @@
          }];
 }
 
-- (void)refresh:(UIRefreshControl *)refreshControl {
-    [self creatPostArrayFromJsonData: _sectionURL];
-    [refreshControl endRefreshing];
-}
-/*- (IBAction)tappedSaveData:(id)sender {
- 
- NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
- [defaults setValue: @"" forKey:@"post"];
- [defaults synchronize];
- }
- */
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    // Uncomment the following line to preserve selection between presentations.
+    //self.clearsSelectionOnViewWillAppear = NO;
     
-    [self creatPostArrayFromJsonData: _sectionURL];
-    self.refreshControl = [[UIRefreshControl alloc] init];
-    self.refreshControl.backgroundColor = [UIColor orangeColor];
-    self.refreshControl.tintColor = [UIColor whiteColor];
-    [self.refreshControl addTarget:self
-                            action:@selector(refresh:)
-                  forControlEvents:UIControlEventValueChanged];
-    
-};
-
-
+    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
+    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
 
-
 #pragma mark - Table view data source
+
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    //#warning Incomplete implementation, return the number of sections
     return 1;
 }
 
@@ -85,19 +68,9 @@
     return [self.Posts count];
 }
 
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
-    //  cell.heightAnchor = 60;
-    
-    /* UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-     //set the position of the button
-     button.frame = CGRectMake(150.0f, 5.0f, 150.0f, 30.0f);
-     [button setTitle:@"Save" forState:UIControlStateNormal];
-     //[button addTarget:self action:@selector(/*saveArticle:) forControlEvents:UIControlEventTouchUpInside];
-     button.backgroundColor= [UIColor clearColor];
-     [cell addSubview:button];*/
-    
-    
     
     ArticlePost *blogPost = [self.Posts objectAtIndex:indexPath.row];
     
@@ -108,6 +81,7 @@
                                                            progress:^(NSInteger receivedSize, NSInteger expectedSize)
          {
              // progression tracking code
+             NSLog(@"i should be loading");
          }
                                                           completed:^(UIImage *image, NSData *data, NSError *error, BOOL finished)
          {
@@ -125,27 +99,78 @@
     cell.textLabel.text = blogPost.title;
     
     cell.detailTextLabel.text = [NSString stringWithFormat:@"%@ - %@",blogPost.author,[blogPost formattedDate]];
-    
     return cell;
 }
 
+
+/*
+ // Override to support conditional editing of the table view.
+ - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
+ // Return NO if you do not want the specified item to be editable.
+ return YES;
+ }
+ */
+
+/*
+ // Override to support editing the table view.
+ - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
+ if (editingStyle == UITableViewCellEditingStyleDelete) {
+ // Delete the row from the data source
+ [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
+ } else if (editingStyle == UITableViewCellEditingStyleInsert) {
+ // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
+ }
+ }
+ */
+
+/*
+ // Override to support rearranging the table view.
+ - (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
+ }
+ */
+
+/*
+ // Override to support conditional rearranging of the table view.
+ - (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
+ // Return NO if you do not want the item to be re-orderable.
+ return YES;
+ }
+ */
+
+
 #pragma mark - Navigation
 
+//In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    
+    //    if ([segue.identifier isEqualToString:@"showSearchedArticle"]){
+    //        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+    //        ArticlePost *post = [self.Posts objectAtIndex:indexPath.row];
+    //
+    //        SFSafariViewController *safariVC= [SFSafariViewController alloc];
+    //        [safariVC initWithURL:post.url];
+    //        safariVC.delegate = self;
+    //
+    //        [self presentViewController:safariVC animated:NO completion:nil];
+    
+    //        WebViewController *wbc = (WebViewController *)segue.destinationViewController;
+    //        wbc.blogPostURL = post.url;
+    
+    //}
+    
+    
+    
+    
+    
+    
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
-    
-    NSLog(@"preparing for segue: %@",segue.identifier);
-    
-    if ([segue.identifier isEqualToString:@"showBlogPost"]){
-        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        ArticlePost *post = [self.Posts objectAtIndex:indexPath.row];
-        WebViewController *wbc = (WebViewController *)segue.destinationViewController;
-        wbc.blogPostURL = post.url;
-        
-    }
-    
 }
+
+
+
+
+
 
 
 @end

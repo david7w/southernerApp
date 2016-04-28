@@ -17,7 +17,7 @@
                BlueprintIdentifier = "CD2FB05E1B7EC81E0026D60B"
                BuildableName = "SouthernerApp.app"
                BlueprintName = "SouthernerApp"
-               ReferencedContainer = "container:SouthernerApp.xcodeproj">
+               ReferencedContainer = "container:The Southerner.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "CD2FB07A1B7EC81E0026D60B"
                BuildableName = "SouthernerAppTests.xctest"
                BlueprintName = "SouthernerAppTests"
-               ReferencedContainer = "container:SouthernerApp.xcodeproj">
+               ReferencedContainer = "container:The Southerner.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "CD2FB0851B7EC81E0026D60B"
                BuildableName = "SouthernerAppUITests.xctest"
                BlueprintName = "SouthernerAppUITests"
-               ReferencedContainer = "container:SouthernerApp.xcodeproj">
+               ReferencedContainer = "container:The Southerner.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,7 +55,7 @@
             BlueprintIdentifier = "CD2FB05E1B7EC81E0026D60B"
             BuildableName = "SouthernerApp.app"
             BlueprintName = "SouthernerApp"
-            ReferencedContainer = "container:SouthernerApp.xcodeproj">
+            ReferencedContainer = "container:The Southerner.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -78,7 +78,7 @@
             BlueprintIdentifier = "CD2FB05E1B7EC81E0026D60B"
             BuildableName = "SouthernerApp.app"
             BlueprintName = "SouthernerApp"
-            ReferencedContainer = "container:SouthernerApp.xcodeproj">
+            ReferencedContainer = "container:The Southerner.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -97,7 +97,7 @@
             BlueprintIdentifier = "CD2FB05E1B7EC81E0026D60B"
             BuildableName = "SouthernerApp.app"
             BlueprintName = "SouthernerApp"
-            ReferencedContainer = "container:SouthernerApp.xcodeproj">
+            ReferencedContainer = "container:The Southerner.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -10,12 +10,8 @@
 		7B61F3CB4FC9E9E422E9CFF2 /* libPods-SouthernerApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE96AC8A7C068050AB79F53 /* libPods-SouthernerApp.a */; };
 		CD16F6891C7179AA006BF091 /* sectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD16F6881C7179AA006BF091 /* sectionViewController.m */; };
 		CD24EAD61B8AAAD400586EA3 /* Paper_tableview.png in Resources */ = {isa = PBXBuildFile; fileRef = CD24EAD51B8AAAD400586EA3 /* Paper_tableview.png */; };
-		CD24EADC1B8AD66100586EA3 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD24EADB1B8AD66100586EA3 /* MoreViewController.m */; };
-		CD24EADF1B8AD92500586EA3 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD24EADE1B8AD92500586EA3 /* LoginViewController.m */; };
-		CD24EAE21B8AD93600586EA3 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD24EAE11B8AD93600586EA3 /* SignupViewController.m */; };
 		CD2FB0641B7EC81E0026D60B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2FB0631B7EC81E0026D60B /* main.m */; };
 		CD2FB0671B7EC81E0026D60B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2FB0661B7EC81E0026D60B /* AppDelegate.m */; };
-		CD2FB06A1B7EC81E0026D60B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2FB0691B7EC81E0026D60B /* FirstViewController.m */; };
 		CD2FB0701B7EC81E0026D60B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2FB06E1B7EC81E0026D60B /* Main.storyboard */; };
 		CD2FB0721B7EC81E0026D60B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD2FB0711B7EC81E0026D60B /* Assets.xcassets */; };
 		CD2FB0751B7EC81E0026D60B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2FB0731B7EC81E0026D60B /* LaunchScreen.storyboard */; };
@@ -23,7 +19,9 @@
 		CD2FB08B1B7EC81E0026D60B /* SouthernerAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2FB08A1B7EC81E0026D60B /* SouthernerAppUITests.m */; };
 		CD3F3BC41B81657C00111F8A /* ArticleNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3F3BC31B81657C00111F8A /* ArticleNavigationController.m */; };
 		CD3F3BCA1B817F9E00111F8A /* SearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3F3BC91B817F9E00111F8A /* SearchTableViewController.m */; };
-		CD834E511B828407006D83A4 /* SavedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD834E501B828406006D83A4 /* SavedTableViewController.m */; };
+		CD662AFF1CD1CC930089CEA9 /* MoreNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD662AFE1CD1CC930089CEA9 /* MoreNavigationViewController.m */; };
+		CD662B021CD1CDA20089CEA9 /* LinksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD662B011CD1CDA20089CEA9 /* LinksViewController.m */; };
+		CD662B051CD1CDDA0089CEA9 /* ResultsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD662B041CD1CDDA0089CEA9 /* ResultsTableViewController.m */; };
 		CD9762F71B7FED9000A85E10 /* ArticlePost.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9762F61B7FED9000A85E10 /* ArticlePost.m */; };
 		CD9762FA1B7FF02700A85E10 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9762F91B7FF02700A85E10 /* WebViewController.m */; };
 		CD9763001B7FF7F800A85E10 /* ArticleGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9762FF1B7FF7F800A85E10 /* ArticleGenerator.m */; };
@@ -56,34 +54,30 @@
 		CD16F6871C7179AA006BF091 /* sectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sectionViewController.h; sourceTree = "<group>"; };
 		CD16F6881C7179AA006BF091 /* sectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sectionViewController.m; sourceTree = "<group>"; };
 		CD24EAD51B8AAAD400586EA3 /* Paper_tableview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Paper_tableview.png; sourceTree = "<group>"; };
-		CD24EADA1B8AD66100586EA3 /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoreViewController.h; path = ../MoreViewController.h; sourceTree = "<group>"; };
-		CD24EADB1B8AD66100586EA3 /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MoreViewController.m; path = ../MoreViewController.m; sourceTree = "<group>"; };
-		CD24EADD1B8AD92500586EA3 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		CD24EADE1B8AD92500586EA3 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		CD24EAE01B8AD93600586EA3 /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
-		CD24EAE11B8AD93600586EA3 /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
-		CD2FB05F1B7EC81E0026D60B /* SouthernerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SouthernerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD2FB05F1B7EC81E0026D60B /* The Southerner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Southerner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2FB0631B7EC81E0026D60B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD2FB0651B7EC81E0026D60B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD2FB0661B7EC81E0026D60B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CD2FB0681B7EC81E0026D60B /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		CD2FB0691B7EC81E0026D60B /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		CD2FB06F1B7EC81E0026D60B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD2FB0711B7EC81E0026D60B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD2FB0741B7EC81E0026D60B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD2FB0761B7EC81E0026D60B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CD2FB07B1B7EC81E0026D60B /* SouthernerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SouthernerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD2FB07B1B7EC81E0026D60B /* The Southerner.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Southerner.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2FB07F1B7EC81E0026D60B /* SouthernerAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SouthernerAppTests.m; sourceTree = "<group>"; };
 		CD2FB0811B7EC81E0026D60B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CD2FB0861B7EC81E0026D60B /* SouthernerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SouthernerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD2FB0861B7EC81E0026D60B /* The Southerner.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Southerner.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2FB08A1B7EC81E0026D60B /* SouthernerAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SouthernerAppUITests.m; sourceTree = "<group>"; };
 		CD2FB08C1B7EC81E0026D60B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD3F3BC21B81657C00111F8A /* ArticleNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleNavigationController.h; sourceTree = "<group>"; };
 		CD3F3BC31B81657C00111F8A /* ArticleNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleNavigationController.m; sourceTree = "<group>"; };
 		CD3F3BC81B817F9E00111F8A /* SearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchTableViewController.h; sourceTree = "<group>"; };
 		CD3F3BC91B817F9E00111F8A /* SearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchTableViewController.m; sourceTree = "<group>"; };
-		CD834E4F1B828406006D83A4 /* SavedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SavedTableViewController.h; sourceTree = "<group>"; };
-		CD834E501B828406006D83A4 /* SavedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SavedTableViewController.m; sourceTree = "<group>"; };
+		CD662AFD1CD1CC930089CEA9 /* MoreNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreNavigationViewController.h; sourceTree = "<group>"; };
+		CD662AFE1CD1CC930089CEA9 /* MoreNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreNavigationViewController.m; sourceTree = "<group>"; };
+		CD662B001CD1CDA20089CEA9 /* LinksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinksViewController.h; sourceTree = "<group>"; };
+		CD662B011CD1CDA20089CEA9 /* LinksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinksViewController.m; sourceTree = "<group>"; };
+		CD662B031CD1CDDA0089CEA9 /* ResultsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsTableViewController.h; sourceTree = "<group>"; };
+		CD662B041CD1CDDA0089CEA9 /* ResultsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsTableViewController.m; sourceTree = "<group>"; };
 		CD9762F51B7FED9000A85E10 /* ArticlePost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticlePost.h; sourceTree = "<group>"; };
 		CD9762F61B7FED9000A85E10 /* ArticlePost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticlePost.m; sourceTree = "<group>"; };
 		CD9762F81B7FF02700A85E10 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
@@ -160,9 +154,9 @@
 		CD2FB0601B7EC81E0026D60B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CD2FB05F1B7EC81E0026D60B /* SouthernerApp.app */,
-				CD2FB07B1B7EC81E0026D60B /* SouthernerAppTests.xctest */,
-				CD2FB0861B7EC81E0026D60B /* SouthernerAppUITests.xctest */,
+				CD2FB05F1B7EC81E0026D60B /* The Southerner.app */,
+				CD2FB07B1B7EC81E0026D60B /* The Southerner.xctest */,
+				CD2FB0861B7EC81E0026D60B /* The Southerner.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -172,33 +166,29 @@
 			children = (
 				CD2FB0651B7EC81E0026D60B /* AppDelegate.h */,
 				CD2FB0661B7EC81E0026D60B /* AppDelegate.m */,
-				CD9762F51B7FED9000A85E10 /* ArticlePost.h */,
-				CD9762F61B7FED9000A85E10 /* ArticlePost.m */,
-				CD9762F81B7FF02700A85E10 /* WebViewController.h */,
-				CD9762F91B7FF02700A85E10 /* WebViewController.m */,
 				CD9762FE1B7FF7F800A85E10 /* ArticleGenerator.h */,
 				CD9762FF1B7FF7F800A85E10 /* ArticleGenerator.m */,
-				CD2FB06E1B7EC81E0026D60B /* Main.storyboard */,
+				CD3F3BC21B81657C00111F8A /* ArticleNavigationController.h */,
+				CD3F3BC31B81657C00111F8A /* ArticleNavigationController.m */,
+				CD9762F51B7FED9000A85E10 /* ArticlePost.h */,
+				CD9762F61B7FED9000A85E10 /* ArticlePost.m */,
+				CD2FB0711B7EC81E0026D60B /* Assets.xcassets */,
+				CD2FB0761B7EC81E0026D60B /* Info.plist */,
 				CD2FB0731B7EC81E0026D60B /* LaunchScreen.storyboard */,
-				CD16F6871C7179AA006BF091 /* sectionViewController.h */,
-				CD16F6881C7179AA006BF091 /* sectionViewController.m */,
-				CD24EADA1B8AD66100586EA3 /* MoreViewController.h */,
-				CD24EADB1B8AD66100586EA3 /* MoreViewController.m */,
+				CD662B001CD1CDA20089CEA9 /* LinksViewController.h */,
+				CD662B011CD1CDA20089CEA9 /* LinksViewController.m */,
+				CD2FB06E1B7EC81E0026D60B /* Main.storyboard */,
+				CD662AFD1CD1CC930089CEA9 /* MoreNavigationViewController.h */,
+				CD662AFE1CD1CC930089CEA9 /* MoreNavigationViewController.m */,
+				CD662B031CD1CDDA0089CEA9 /* ResultsTableViewController.h */,
+				CD662B041CD1CDDA0089CEA9 /* ResultsTableViewController.m */,
 				CD3F3BC81B817F9E00111F8A /* SearchTableViewController.h */,
 				CD3F3BC91B817F9E00111F8A /* SearchTableViewController.m */,
-				CD2FB0761B7EC81E0026D60B /* Info.plist */,
-				CD2FB0711B7EC81E0026D60B /* Assets.xcassets */,
-				CD3F3BC21B81657C00111F8A /* ArticleNavigationController.h */,
-				CD2FB0681B7EC81E0026D60B /* FirstViewController.h */,
-				CD2FB0691B7EC81E0026D60B /* FirstViewController.m */,
-				CD3F3BC31B81657C00111F8A /* ArticleNavigationController.m */,
-				CD834E4F1B828406006D83A4 /* SavedTableViewController.h */,
-				CD834E501B828406006D83A4 /* SavedTableViewController.m */,
-				CD24EADD1B8AD92500586EA3 /* LoginViewController.h */,
-				CD24EADE1B8AD92500586EA3 /* LoginViewController.m */,
-				CD24EAE01B8AD93600586EA3 /* SignupViewController.h */,
-				CD24EAE11B8AD93600586EA3 /* SignupViewController.m */,
+				CD16F6871C7179AA006BF091 /* sectionViewController.h */,
+				CD16F6881C7179AA006BF091 /* sectionViewController.m */,
 				CD2FB0621B7EC81E0026D60B /* Supporting Files */,
+				CD9762F81B7FF02700A85E10 /* WebViewController.h */,
+				CD9762F91B7FF02700A85E10 /* WebViewController.m */,
 			);
 			path = SouthernerApp;
 			sourceTree = "<group>";
@@ -248,7 +238,7 @@
 			);
 			name = SouthernerApp;
 			productName = SouthernerApp;
-			productReference = CD2FB05F1B7EC81E0026D60B /* SouthernerApp.app */;
+			productReference = CD2FB05F1B7EC81E0026D60B /* The Southerner.app */;
 			productType = "com.apple.product-type.application";
 		};
 		CD2FB07A1B7EC81E0026D60B /* SouthernerAppTests */ = {
@@ -266,7 +256,7 @@
 			);
 			name = SouthernerAppTests;
 			productName = SouthernerAppTests;
-			productReference = CD2FB07B1B7EC81E0026D60B /* SouthernerAppTests.xctest */;
+			productReference = CD2FB07B1B7EC81E0026D60B /* The Southerner.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		CD2FB0851B7EC81E0026D60B /* SouthernerAppUITests */ = {
@@ -284,7 +274,7 @@
 			);
 			name = SouthernerAppUITests;
 			productName = SouthernerAppUITests;
-			productReference = CD2FB0861B7EC81E0026D60B /* SouthernerAppUITests.xctest */;
+			productReference = CD2FB0861B7EC81E0026D60B /* The Southerner.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -310,7 +300,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CD2FB05A1B7EC81E0026D60B /* Build configuration list for PBXProject "SouthernerApp" */;
+			buildConfigurationList = CD2FB05A1B7EC81E0026D60B /* Build configuration list for PBXProject "The Southerner" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -397,17 +387,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD16F6891C7179AA006BF091 /* sectionViewController.m in Sources */,
-				CD834E511B828407006D83A4 /* SavedTableViewController.m in Sources */,
+				CD662AFF1CD1CC930089CEA9 /* MoreNavigationViewController.m in Sources */,
 				CD3F3BC41B81657C00111F8A /* ArticleNavigationController.m in Sources */,
-				CD24EAE21B8AD93600586EA3 /* SignupViewController.m in Sources */,
 				CD3F3BCA1B817F9E00111F8A /* SearchTableViewController.m in Sources */,
 				CD9762FA1B7FF02700A85E10 /* WebViewController.m in Sources */,
 				CD9762F71B7FED9000A85E10 /* ArticlePost.m in Sources */,
 				CD2FB0671B7EC81E0026D60B /* AppDelegate.m in Sources */,
-				CD2FB06A1B7EC81E0026D60B /* FirstViewController.m in Sources */,
-				CD24EADF1B8AD92500586EA3 /* LoginViewController.m in Sources */,
+				CD662B051CD1CDDA0089CEA9 /* ResultsTableViewController.m in Sources */,
 				CD9763001B7FF7F800A85E10 /* ArticleGenerator.m in Sources */,
-				CD24EADC1B8AD66100586EA3 /* MoreViewController.m in Sources */,
+				CD662B021CD1CDA20089CEA9 /* LinksViewController.m in Sources */,
 				CD2FB0641B7EC81E0026D60B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -554,7 +542,7 @@
 				INFOPLIST_FILE = SouthernerApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = david.SouthernerApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "The Southerner";
 			};
 			name = Debug;
 		};
@@ -567,7 +555,7 @@
 				INFOPLIST_FILE = SouthernerApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = david.SouthernerApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "The Southerner";
 			};
 			name = Release;
 		};
@@ -578,7 +566,7 @@
 				INFOPLIST_FILE = SouthernerAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = david.SouthernerAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "The Southerner";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SouthernerApp.app/SouthernerApp";
 			};
 			name = Debug;
@@ -590,7 +578,7 @@
 				INFOPLIST_FILE = SouthernerAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = david.SouthernerAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "The Southerner";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SouthernerApp.app/SouthernerApp";
 			};
 			name = Release;
@@ -601,7 +589,7 @@
 				INFOPLIST_FILE = SouthernerAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = david.SouthernerAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "The Southerner";
 				TEST_TARGET_NAME = SouthernerApp;
 				USES_XCTRUNNER = YES;
 			};
@@ -613,7 +601,7 @@
 				INFOPLIST_FILE = SouthernerAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = david.SouthernerAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "The Southerner";
 				TEST_TARGET_NAME = SouthernerApp;
 				USES_XCTRUNNER = YES;
 			};
@@ -622,7 +610,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CD2FB05A1B7EC81E0026D60B /* Build configuration list for PBXProject "SouthernerApp" */ = {
+		CD2FB05A1B7EC81E0026D60B /* Build configuration list for PBXProject "The Southerner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CD2FB08D1B7EC81E0026D60B /* Debug */,

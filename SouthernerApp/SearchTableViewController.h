@@ -9,12 +9,15 @@
 #import <UIKit/UIKit.h>
 #import "ArticleGenerator.h"
 #import "ArticlePost.h"
+#import "ResultsTableViewController.h"
 
 @interface SearchTableViewController : UITableViewController
-<UISearchBarDelegate>
-@property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
-@property (nonatomic, strong) NSMutableArray *Posts;
+<UISearchBarDelegate, UISearchControllerDelegate, UISearchResultsUpdating, SFSafariViewControllerDelegate>
 
+@property (nonatomic, strong) UISearchController *searchController;
+
+@property (nonatomic, strong) NSMutableArray *Posts;
+@property (nonatomic, strong) ResultsTableViewController *resultsTableViewController;
 
 
 @end
