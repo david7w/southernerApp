@@ -1,19 +1,93 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <customFonts key="customFonts">
-        <mutableArray key="AvenirNext.ttc">
-            <string>AvenirNext-Regular</string>
-            <string>AvenirNext-Regular</string>
-            <string>AvenirNext-Regular</string>
-            <string>AvenirNext-Regular</string>
-            <string>AvenirNext-Regular</string>
-            <string>AvenirNext-Regular</string>
+        <mutableArray key="PT_Serif-Web-Regular.ttf">
+            <string>PTSerif-Regular</string>
+            <string>PTSerif-Regular</string>
+            <string>PTSerif-Regular</string>
+            <string>PTSerif-Regular</string>
+            <string>PTSerif-Regular</string>
+            <string>PTSerif-Regular</string>
+            <string>PTSerif-Regular</string>
+            <string>PTSerif-Regular</string>
         </mutableArray>
     </customFonts>
     <scenes>
+        <!--Table View Controller-->
+        <scene sceneID="Z1u-s4-0Ib">
+            <objects>
+                <tableViewController id="krj-An-ofs" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="1IK-ZE-bZc">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection headerTitle="Section-1" id="xll-pw-JI0">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Zz9-pt-Vqs">
+                                        <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Zz9-pt-Vqs" id="fwh-KJ-bva">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="z1a-Gk-b0Q">
+                                        <rect key="frame" x="0.0" y="72" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="z1a-Gk-b0Q" id="gs4-jR-sml">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="xhS-5A-20j">
+                                        <rect key="frame" x="0.0" y="116" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xhS-5A-20j" id="Ib3-Rw-OfH">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="DSq-9t-UJw">
+                                        <rect key="frame" x="0.0" y="160" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DSq-9t-UJw" id="wHM-he-o6t">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="FHX-2U-qXn">
+                                        <rect key="frame" x="0.0" y="204" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="FHX-2U-qXn" id="hj8-8E-Vib">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="ko6-I0-PiC">
+                                        <rect key="frame" x="0.0" y="248" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ko6-I0-PiC" id="Fgw-zY-bm3">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="krj-An-ofs" id="2zC-y0-YqG"/>
+                            <outlet property="delegate" destination="krj-An-ofs" id="hAk-c7-gSQ"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cud-pa-Cmd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2699" y="-1984"/>
+        </scene>
         <!--Choose A Section-->
         <scene sceneID="KOB-dh-T1a">
             <objects>
@@ -26,10 +100,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DM8-Qm-tCY">
+                                <rect key="frame" x="252" y="478" width="94" height="56"/>
+                                <fontDescription key="fontDescription" name="PTSerif-Regular" family="PT Serif" pointSize="33"/>
+                                <state key="normal" title="Sports">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ZiA-uF-PF3" kind="push" identifier="showsports" animates="NO" id="H8k-zV-t1E"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wV3-GB-RC5">
-                                <rect key="frame" x="257" y="93" width="84" height="58"/>
+                                <rect key="frame" x="260" y="94" width="80" height="56"/>
                                 <color key="backgroundColor" cyan="0.0" magenta="0.58999999999999997" yellow="0.95999999999999996" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="33"/>
+                                <fontDescription key="fontDescription" name="PTSerif-Regular" family="PT Serif" pointSize="33"/>
                                 <state key="normal" title="News">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -38,8 +122,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SIP-Dv-zAb">
-                                <rect key="frame" x="153" y="245" width="292" height="58"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="33"/>
+                                <rect key="frame" x="156" y="246" width="288" height="56"/>
+                                <fontDescription key="fontDescription" name="PTSerif-Regular" family="PT Serif" pointSize="33"/>
                                 <state key="normal" title="Opinions/Editorials">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -48,8 +132,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gbQ-ih-aTm">
-                                <rect key="frame" x="236" y="174" width="128" height="58"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="33"/>
+                                <rect key="frame" x="238" y="175" width="126" height="56"/>
+                                <fontDescription key="fontDescription" name="PTSerif-Regular" family="PT Serif" pointSize="33"/>
                                 <state key="normal" title="Features">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -58,8 +142,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3mM-xA-cDk">
-                                <rect key="frame" x="176" y="323" width="245" height="58"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="33"/>
+                                <rect key="frame" x="180" y="324" width="239" height="56"/>
+                                <fontDescription key="fontDescription" name="PTSerif-Regular" family="PT Serif" pointSize="33"/>
                                 <state key="normal" title="Special Features">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -68,8 +152,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JnD-p9-Bz7">
-                                <rect key="frame" x="192" y="401" width="213" height="58"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="33"/>
+                                <rect key="frame" x="192" y="402" width="216" height="56"/>
+                                <fontDescription key="fontDescription" name="PTSerif-Regular" family="PT Serif" pointSize="33"/>
                                 <state key="normal" title="Entertainment">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -77,29 +161,19 @@
                                     <segue destination="ZiA-uF-PF3" kind="push" identifier="showentertainment" animates="NO" id="5lz-EW-y23"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DM8-Qm-tCY">
-                                <rect key="frame" x="250" y="477" width="97" height="58"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="33"/>
-                                <state key="normal" title="Sports">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="ZiA-uF-PF3" kind="push" identifier="showsports" animates="NO" id="H8k-zV-t1E"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" cyan="0.0" magenta="0.58999999999999997" yellow="0.95999999999999996" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                         <constraints>
-                            <constraint firstItem="JnD-p9-Bz7" firstAttribute="centerX" secondItem="jPt-xd-oqj" secondAttribute="centerX" constant="-1.5" id="21b-Td-jUS"/>
-                            <constraint firstItem="SIP-Dv-zAb" firstAttribute="centerX" secondItem="jPt-xd-oqj" secondAttribute="centerX" constant="-1" id="6jd-Pz-R2W"/>
+                            <constraint firstItem="JnD-p9-Bz7" firstAttribute="centerX" secondItem="jPt-xd-oqj" secondAttribute="centerX" id="21b-Td-jUS"/>
+                            <constraint firstItem="SIP-Dv-zAb" firstAttribute="centerX" secondItem="jPt-xd-oqj" secondAttribute="centerX" id="6jd-Pz-R2W"/>
                             <constraint firstItem="Uti-5z-bux" firstAttribute="top" secondItem="DM8-Qm-tCY" secondAttribute="bottom" constant="16" id="90T-8s-Dog"/>
-                            <constraint firstItem="wV3-GB-RC5" firstAttribute="centerX" secondItem="jPt-xd-oqj" secondAttribute="centerX" constant="-1" id="LZq-vD-dYQ"/>
+                            <constraint firstItem="wV3-GB-RC5" firstAttribute="centerX" secondItem="jPt-xd-oqj" secondAttribute="centerX" id="LZq-vD-dYQ"/>
                             <constraint firstItem="wV3-GB-RC5" firstAttribute="centerY" secondItem="jPt-xd-oqj" secondAttribute="centerY" constant="-178" id="NwB-yW-Fao"/>
-                            <constraint firstItem="gbQ-ih-aTm" firstAttribute="centerX" secondItem="jPt-xd-oqj" secondAttribute="centerX" id="Q0p-i5-sQL"/>
+                            <constraint firstItem="gbQ-ih-aTm" firstAttribute="centerX" secondItem="jPt-xd-oqj" secondAttribute="centerX" constant="1" id="Q0p-i5-sQL"/>
                             <constraint firstItem="gbQ-ih-aTm" firstAttribute="centerY" secondItem="jPt-xd-oqj" secondAttribute="centerY" constant="-97" id="SHc-f5-dRa"/>
                             <constraint firstItem="DM8-Qm-tCY" firstAttribute="centerX" secondItem="jPt-xd-oqj" secondAttribute="centerX" constant="-1.5" id="eHU-oO-bvE"/>
                             <constraint firstItem="3mM-xA-cDk" firstAttribute="centerY" secondItem="jPt-xd-oqj" secondAttribute="centerY" constant="52" id="kOJ-Yo-w5D"/>
-                            <constraint firstItem="3mM-xA-cDk" firstAttribute="centerX" secondItem="jPt-xd-oqj" secondAttribute="centerX" constant="-1.5" id="lpx-Gl-cra"/>
+                            <constraint firstItem="3mM-xA-cDk" firstAttribute="centerX" secondItem="jPt-xd-oqj" secondAttribute="centerX" constant="-0.5" id="lpx-Gl-cra"/>
                             <constraint firstItem="DM8-Qm-tCY" firstAttribute="centerY" secondItem="jPt-xd-oqj" secondAttribute="centerY" constant="206" id="pqG-g4-1Vd"/>
                             <constraint firstItem="SIP-Dv-zAb" firstAttribute="centerY" secondItem="jPt-xd-oqj" secondAttribute="centerY" constant="-26" id="v2u-v8-2Zz"/>
                             <constraint firstItem="JnD-p9-Bz7" firstAttribute="centerY" secondItem="jPt-xd-oqj" secondAttribute="centerY" constant="130" id="w4B-sl-B56"/>
@@ -135,16 +209,16 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="u5g-hI-1Of">
-                                            <rect key="frame" x="15" y="25" width="31.5" height="19.5"/>
+                                            <rect key="frame" x="15" y="23" width="34" height="21.5"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <fontDescription key="fontDescription" name="PTSerif-Regular" family="PT Serif" pointSize="16"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sgY-JM-cd4">
-                                            <rect key="frame" x="15" y="44.5" width="40.5" height="13.5"/>
+                                            <rect key="frame" x="15" y="44.5" width="38.5" height="15"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                            <fontDescription key="fontDescription" name="PTSerif-Regular" family="PT Serif" pointSize="11"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -258,6 +332,9 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Jqh-fK-maA">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="PTSerif-Regular" family="PT Serif" pointSize="2"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="2Mu-cd-lTO">
@@ -408,6 +485,9 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="pfc-rr-10v">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="PTSerif-Regular" family="PT Serif" pointSize="4"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>

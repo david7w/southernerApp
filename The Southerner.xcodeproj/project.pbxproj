@@ -23,6 +23,10 @@
 		CD662B021CD1CDA20089CEA9 /* LinksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD662B011CD1CDA20089CEA9 /* LinksViewController.m */; };
 		CD662B051CD1CDDA0089CEA9 /* ResultsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD662B041CD1CDDA0089CEA9 /* ResultsTableViewController.m */; };
 		CD662B091CD1D4850089CEA9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD662B081CD1D4850089CEA9 /* GoogleService-Info.plist */; };
+		CD95FC5C1CEABB0300113938 /* PT_Serif-Web-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD95FC581CEABB0300113938 /* PT_Serif-Web-Bold.ttf */; };
+		CD95FC5D1CEABB0300113938 /* PT_Serif-Web-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD95FC591CEABB0300113938 /* PT_Serif-Web-BoldItalic.ttf */; };
+		CD95FC5E1CEABB0300113938 /* PT_Serif-Web-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD95FC5A1CEABB0300113938 /* PT_Serif-Web-Italic.ttf */; };
+		CD95FC5F1CEABB0300113938 /* PT_Serif-Web-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD95FC5B1CEABB0300113938 /* PT_Serif-Web-Regular.ttf */; };
 		CD9762F71B7FED9000A85E10 /* ArticlePost.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9762F61B7FED9000A85E10 /* ArticlePost.m */; };
 		CD9762FA1B7FF02700A85E10 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9762F91B7FF02700A85E10 /* WebViewController.m */; };
 		CD9763001B7FF7F800A85E10 /* ArticleGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9762FF1B7FF7F800A85E10 /* ArticleGenerator.m */; };
@@ -80,6 +84,10 @@
 		CD662B031CD1CDDA0089CEA9 /* ResultsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsTableViewController.h; sourceTree = "<group>"; };
 		CD662B041CD1CDDA0089CEA9 /* ResultsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsTableViewController.m; sourceTree = "<group>"; };
 		CD662B081CD1D4850089CEA9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CD95FC581CEABB0300113938 /* PT_Serif-Web-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PT_Serif-Web-Bold.ttf"; sourceTree = "<group>"; };
+		CD95FC591CEABB0300113938 /* PT_Serif-Web-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PT_Serif-Web-BoldItalic.ttf"; sourceTree = "<group>"; };
+		CD95FC5A1CEABB0300113938 /* PT_Serif-Web-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PT_Serif-Web-Italic.ttf"; sourceTree = "<group>"; };
+		CD95FC5B1CEABB0300113938 /* PT_Serif-Web-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PT_Serif-Web-Regular.ttf"; sourceTree = "<group>"; };
 		CD9762F51B7FED9000A85E10 /* ArticlePost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticlePost.h; sourceTree = "<group>"; };
 		CD9762F61B7FED9000A85E10 /* ArticlePost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticlePost.m; sourceTree = "<group>"; };
 		CD9762F81B7FF02700A85E10 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
@@ -140,6 +148,10 @@
 		CD2FB0561B7EC81E0026D60B = {
 			isa = PBXGroup;
 			children = (
+				CD95FC581CEABB0300113938 /* PT_Serif-Web-Bold.ttf */,
+				CD95FC591CEABB0300113938 /* PT_Serif-Web-BoldItalic.ttf */,
+				CD95FC5A1CEABB0300113938 /* PT_Serif-Web-Italic.ttf */,
+				CD95FC5B1CEABB0300113938 /* PT_Serif-Web-Regular.ttf */,
 				CD24EAD51B8AAAD400586EA3 /* Paper_tableview.png */,
 				CD662B081CD1D4850089CEA9 /* GoogleService-Info.plist */,
 				CDE7434C1B803A0900DF37D1 /* CoreGraphics.framework */,
@@ -328,10 +340,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD95FC5D1CEABB0300113938 /* PT_Serif-Web-BoldItalic.ttf in Resources */,
 				CD24EAD61B8AAAD400586EA3 /* Paper_tableview.png in Resources */,
 				CD2FB0751B7EC81E0026D60B /* LaunchScreen.storyboard in Resources */,
+				CD95FC5C1CEABB0300113938 /* PT_Serif-Web-Bold.ttf in Resources */,
 				CD662B091CD1D4850089CEA9 /* GoogleService-Info.plist in Resources */,
+				CD95FC5E1CEABB0300113938 /* PT_Serif-Web-Italic.ttf in Resources */,
 				CD2FB0721B7EC81E0026D60B /* Assets.xcassets in Resources */,
+				CD95FC5F1CEABB0300113938 /* PT_Serif-Web-Regular.ttf in Resources */,
 				CD2FB0701B7EC81E0026D60B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

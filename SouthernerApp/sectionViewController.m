@@ -20,6 +20,22 @@
 
     self.navigationItem.title = @"Select a Section";
     // Do any additional setup after loading the view.
+    
+    
+    //// General Declarations
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    
+    
+    //// Image Declarations
+    UIImage* mascot = [UIImage imageNamed: @"mascot.png"];
+    
+    //// Picture Drawing
+    UIBezierPath* picturePath = [UIBezierPath bezierPathWithRect: CGRectMake(70, 19, 94, 75)];
+    CGContextSaveGState(context);
+    [picturePath addClip];
+    [mascot drawInRect: CGRectMake(70, 19, mascot.size.width, mascot.size.height)];
+    CGContextRestoreGState(context);
+
 }
 
 - (void)didReceiveMemoryWarning {
